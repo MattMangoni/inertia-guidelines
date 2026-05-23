@@ -2,7 +2,7 @@
 
 ## Requirements
 
-- Framework: Laravel 13+ + Inertia v3+
+- Framework: Laravel 13+ and Inertia v3+
 - DTO package: `spatie/laravel-data`
 - Goal: enforce end-to-end typing from backend payloads to frontend TypeScript.
 
