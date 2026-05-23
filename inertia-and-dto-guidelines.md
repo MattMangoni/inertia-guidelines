@@ -2,7 +2,7 @@
 
 ## Context (Project-Specific)
 
-- Framework: Laravel 13 + Inertia v2 + Vue 3
+- Framework: Laravel 13 + Inertia v2
 - PHP: 8.5
 - DTO package: `spatie/laravel-data`
 - Goal: enforce end-to-end typing from backend payloads to frontend TypeScript.
