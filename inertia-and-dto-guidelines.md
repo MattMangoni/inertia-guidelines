@@ -1,6 +1,6 @@
 # Inertia (and DTOs) Guidelines
 
-## Requirements
+## Setup & Goals
 
 - Framework: Laravel 13+ and Inertia v3+
 - DTO package: `spatie/laravel-data`
