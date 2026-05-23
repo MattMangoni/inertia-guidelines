@@ -113,7 +113,7 @@ export default function ShowUser() {
 
 - Hand-writing TS types for backend shapes (use DTOs)
 - Forgetting `composer types:generate` after a DTO change
-- Passing Eloquent models / raw arrays to `inertia(...)` (see `inertia-dto-typing.md`)
+- Passing Eloquent models / raw arrays to `inertia(...)` (see `inertia-dto-guidelines.md`)
 - Inline route closures for anything beyond trivial single-line redirects (use invokable controllers)
 - Hard-coded URLs in `<Link>` / `router.visit` (use Wayfinder)
 - Removing `export {};` or the `[key: string]: unknown` from `global.d.ts`
