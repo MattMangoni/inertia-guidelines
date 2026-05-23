@@ -1,9 +1,8 @@
 # Inertia (and DTOs) Guidelines
 
-## Context (Project-Specific)
+## Requirements
 
-- Framework: Laravel 13 + Inertia v3
-- PHP: 8.5
+- Framework: Laravel 13+ + Inertia v3+
 - DTO package: `spatie/laravel-data`
 - Goal: enforce end-to-end typing from backend payloads to frontend TypeScript.
 
