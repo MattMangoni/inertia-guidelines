@@ -85,9 +85,9 @@ export default function ShowUser() {
 
 ## v3 Prop Strategies
 
-- Deferred props: **always pair with a pulsing/animated skeleton** placeholder. Never leave UI empty.
-- Optional: `Inertia::optional()` (v3). `Inertia::lazy()` is removed.
-- Merging: `Inertia::merge()` for incremental loads.
+- Deferred: `inertia()->defer(fn () => $value)` — **always pair with a pulsing/animated skeleton** placeholder; never leave UI empty.
+- Optional: `inertia()->optional(fn () => $value)`. `inertia()->lazy()` (v2) is removed.
+- Merging: `inertia()->merge($value)` for incremental loads.
 - Hot paths: `<Link prefetch>` for instant visits.
 
 ## React 19 + Compiler
@@ -120,7 +120,7 @@ export default function ShowUser() {
 - Manual memoization layers added before profiling
 - Re-installing `axios` (use `useHttp` / built-in XHR)
 - Editing `resources/js/types/generated.d.ts` by hand
-- Mixing v2 Inertia API (`Inertia::lazy`, `router.cancel`, axios) with v3
+- Mixing v2 Inertia API (`inertia()->lazy`, `router.cancel`, axios) with v3
 
 ## Skills to Activate
 
