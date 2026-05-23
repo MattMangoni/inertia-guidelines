@@ -5,7 +5,7 @@
 - Stack: Inertia v3 + React 19 + TypeScript strict + Tailwind v4
 - Routes/actions typed via Laravel Wayfinder (`@/routes`, `@/actions`)
 - Backend DTOs export to `App.Data.*` namespace via `spatie/typescript-transformer`
-- See also: `inertia-dto-typing.md` for backend DTO/payload rules
+- See also: `inertia-dto-guidelines.md` for backend DTO/payload rules
 
 ## Non-Negotiable Rules
 
